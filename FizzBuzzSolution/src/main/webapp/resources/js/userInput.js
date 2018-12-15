@@ -23,7 +23,7 @@ function sendUserInput() {
 			document.getElementById("inputNumber").value = "";
 		},
 		error : function(e) {
-			alert('Error: ' + e);
+			alert('Error while sending data: ' + e);
 		}
 	});
 }
